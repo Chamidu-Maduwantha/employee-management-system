@@ -6,12 +6,17 @@ import { AppComponent } from './app.component';
 import { EmployeeDetailsComponent } from './components/employee-details/employee-details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeDetailsComponent
+    EmployeeDetailsComponent,
+    AboutUsComponent,
+    ContactUsComponent
+
 
   ],
   imports: [

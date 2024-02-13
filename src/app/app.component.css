@@ -40,3 +40,11 @@ nav a.active {
   color: #ff9800;
 }
 
+
+@media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

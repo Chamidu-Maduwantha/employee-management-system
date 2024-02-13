@@ -50,3 +50,16 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+
+@media screen and (max-width: 600px) {
+  .contact-us-container {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 14px;
+  }
+}
